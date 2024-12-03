@@ -22,7 +22,7 @@ WordPress官网：https://cn.wordpress.org/
 WordPress是PHP语言写的，所以上一步安装LNMP就是为了保证WordPress的运行环境。
 # wget https://cn.wordpress.org/latest-zh_CN.zip
 # unzip latest-zh_CN.zip -d /home/wwwroot  # 解压到/home/wwwroot目录下
-# chown -R www:www wordpress/
+# chown -R www:www /home/wwwroot/wordpress
 
 3.创建数据库
 登录MySQL数据库，密码就是安装LNMP第②步时设置的密码，创建一个wordpress数据库。
