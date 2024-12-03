@@ -1,0 +1,10 @@
+1、删除数据库
+# mysql -uroot -p
+# 密码
+# show databases;
+# drop database wordpress;
+# exit
+
+2、删除wordpress目录
+cd /var/www/html/
+rm -rf *
